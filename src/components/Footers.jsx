@@ -64,17 +64,17 @@ const Footers = () => {
             {/* 3 */}
             <form>
               <h6 className='text-lg'>Subscribe</h6>
-              <fieldset className='form-control w-80'>
+              <fieldset className='form-control'>
                 <label className='label'>
                   <p className='font-normal text-gray-500'>
-                    Subscribe to our newsletter for the latest updates.
+                    Subscribe to our newsletter for <br />the latest updates.
                   </p>
                 </label>
                 <div className='join text-black'>
                   <input
                     type='text'
                     placeholder='Enter your email'
-                    className='input input-bordered join-item'
+                    className='input-bordered join-item pl-4'
                   />
                   <button className='btn text-black font-bold join-item bg-gradient-to-r from-pink-400 to-yellow-400'>
                     Subscribe
