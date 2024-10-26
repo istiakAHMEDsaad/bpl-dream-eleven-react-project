@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+  font-family: "Sora", sans-serif;
+}
+
+/* .bgImageSet{
+  background-image: url("./assets/bg-shadow.png");
+  height: 25rem;
+} */
+
+.activeBtn{
+  background-color: #E7FE29;
+  color: black;
+  font-weight: 700;
+}

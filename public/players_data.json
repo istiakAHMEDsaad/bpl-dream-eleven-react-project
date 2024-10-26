@@ -1,0 +1,92 @@
+[
+    {
+        "playerId": 1,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "image": "./cricketer_img/1-steve-smith.png",
+        "role": "Batsman",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "None",
+        "bidding_price": "1200000"
+    },
+    {
+        "playerId": 2,
+        "name": "David Warner",
+        "country": "Australia",
+        "image": "./cricketer_img/2-david-warner.png",
+        "role": "Batsman",
+        "batting_type": "Left-hand bat",
+        "bowling_type": "Right-arm leg break",
+        "bidding_price": "2400000"
+    },
+    {
+        "playerId": 3,
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "./cricketer_img/3-ben-stokes.png",
+        "role": "All-rounder",
+        "batting_type": "Left-hand bat",
+        "bowling_type": "Right-arm fast",
+        "bidding_price": "3100000"
+    },
+    {
+        "playerId": 4,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "./cricketer_img/4-virat-kohli.png",
+        "role": "Batsman",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "None",
+        "bidding_price": "3600000"
+    },
+    {
+        "playerId": 5,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "image": "./cricketer_img/5-jasprit-bumrah.png",
+        "role": "Bowler",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "Right-arm fast",
+        "bidding_price": "2900000"
+    },
+    {
+        "playerId": 6,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "./cricketer_img/6_kane-williamson.png",
+        "role": "Batsman",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "Right-arm off break",
+        "bidding_price": "1800000"
+    },
+    {
+        "playerId": 7,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "./cricketer_img/7-pat-cummins.png",
+        "role": "Bowler",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "Right-arm fast",
+        "bidding_price": "2200000"
+    },
+    {
+        "playerId": 8,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "image": "./cricketer_img/8-rashid-khan.png",
+        "role": "Bowler",
+        "batting_type": "Right-hand bat",
+        "bowling_type": "Right-arm leg break",
+        "bidding_price": "3000000"
+    },
+    {
+        "playerId": 9,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "./cricketer_img/9-shakib-al-hasan.png",
+        "role": "All-rounder",
+        "batting_type": "Left-hand bat",
+        "bowling_type": "Left-arm orthodox spin",
+        "bidding_price": "2500000"
+    }
+]
