@@ -21,7 +21,7 @@ const SelectedPlayers = ({ player, handleDelete, coins }) => {
   );
 };
 
-SelectedPlayers.PropTypes = {
+SelectedPlayers.propTypes = {
     player: PropTypes.object.isRequired,
     handleDelete: PropTypes.func.isRequired,
     coins: PropTypes.number.isRequired,

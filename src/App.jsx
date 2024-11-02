@@ -60,7 +60,7 @@ function App() {
 
     if (selectedPlayers.length < 6) {
       if (coins === 0 || coins < money) {
-        // setCoins(coins);
+        setCoins(coins);
 
         toast.error('Not enough money', {
           position: 'top-center',
@@ -123,14 +123,14 @@ function App() {
   };
 
   const handleDelete = (playerId, coins, bidding_price) => {
+    const priceToInt = parseInt(bidding_price);
+    setCoins(coins + priceToInt)
     // console.log(playerId);
-    const biddingPrice = parseInt(bidding_price);
     const removePlayer = selectedPlayers.filter(
       (rmv) => rmv.playerId != playerId
     );
     setSelectedPlayers(removePlayer);
 
-    setCoins(coins + biddingPrice);
 
     toast.warn('Successfully remove player!', {
       position: 'top-center',

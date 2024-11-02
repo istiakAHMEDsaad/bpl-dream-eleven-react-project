@@ -29,7 +29,7 @@ const Banner = ({handleCoin}) => {
                 Assemble Your Ultimate Dream 11 Cricket Team
               </h1>
               <p className='text-white font-medium'>Beyond Boundaries Beyond Limits</p>
-              <button onClick={() => handleCoin(1000000)} className='font-bold text-lg border px-4 py-3 rounded-md bg-[#E7FE29] hover:bg-gradient-to-r hover:from-pink-300 hover:to-yellow-300 transition-all duration-150'>Claim Free Credit</button>
+              <button onClick={() => handleCoin(6000000)} className='font-bold text-lg border px-4 py-3 rounded-md bg-[#E7FE29] hover:bg-gradient-to-r hover:from-pink-300 hover:to-yellow-300 transition-all duration-150'>Claim Free Credit</button>
             </div>
           </div>
         </div>

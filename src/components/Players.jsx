@@ -33,7 +33,7 @@ const Players = ({ handleIsActiveBtn, isActive, handleSetPlapyers, selectedPlaye
               onClick={() => handleIsActiveBtn('available')}
               className={`${
                 isActive.selected ? '' : 'activeBtn'
-              } font-bold px-4  md:px-6 md:py-3 border rounded-md flex md:flex-none items-center gap-x-2`}
+              } font-bold px-4  md:px-6 md:py-3 border rounded-md `}
             >
               Selected <span>{selectedPlayers.length}</span>
             </button>
